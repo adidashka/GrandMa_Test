@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="buttonTask4" layoutX="16.0" layoutY="393.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="173.0" text="Задание 4" />
+      <Button fx:id="buttonTask1" layoutX="16.0" layoutY="52.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="173.0" text="Задание 1" />
+      <Button fx:id="buttonTask2" layoutX="16.0" layoutY="257.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="173.0" text="Задание 2" />
+      <Button fx:id="buttonTask3" layoutX="16.0" layoutY="347.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="173.0" text="Задание 3" />
+      <TextField fx:id="textN" layoutX="14.0" layoutY="14.0" prefHeight="26.0" prefWidth="173.0" promptText="N" />
+      <TextField fx:id="textFrameWidth" layoutX="16.0" layoutY="92.0" prefHeight="26.0" prefWidth="173.0" promptText="frame_width" />
+      <TextField fx:id="textFrameHeight" layoutX="16.0" layoutY="118.0" prefHeight="26.0" prefWidth="173.0" promptText="frame_height" />
+      <TextField fx:id="textPicWidth" layoutX="16.0" layoutY="144.0" prefHeight="26.0" prefWidth="173.0" promptText="pic_width" />
+      <TextField fx:id="textPicHeight" layoutX="16.0" layoutY="170.0" prefHeight="26.0" prefWidth="173.0" promptText="pic_height" />
+      <TextField fx:id="textPicX" layoutX="16.0" layoutY="196.0" prefHeight="26.0" prefWidth="173.0" promptText="pic_x" />
+      <TextField fx:id="textPicY" layoutX="16.0" layoutY="222.0" prefHeight="26.0" prefWidth="173.0" promptText="pic_y" />
+      <TextField fx:id="textDollars" layoutX="14.0" layoutY="302.0" prefHeight="26.0" prefWidth="173.0" />
+      <TextArea fx:id="textRes" layoutX="204.0" prefHeight="500.0" prefWidth="596.0" />
+      <Button fx:id="buttonClean" layoutX="16.0" layoutY="440.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="173.0" text="Оичстить поле вывода" />
+   </children>
+</AnchorPane>

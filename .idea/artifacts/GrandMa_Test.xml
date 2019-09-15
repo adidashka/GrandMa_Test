@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="GrandMa_Test">
+    <output-path>$PROJECT_DIR$/out/artifacts/GrandMa_Test</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="Main.class" />
+        <option name="description" value="" />
+        <option name="height" value="500" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="all" />
+        <option name="title" value="" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+        <option name="width" value="800" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="GrandMa_Test.jar">
+        <element id="module-output" name="GrandMa_Test" />
+      </element>
+    </root>
+  </artifact>
+</component>
